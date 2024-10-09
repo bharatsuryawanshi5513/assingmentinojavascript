@@ -18,10 +18,17 @@ document.getElementById("clickreset").addEventListener('click',function(){
     document.getElementById('count').innerText =count;
 
 })
+let iswhite=true;
+document.getElementById("clickbtndark").addEventListener("click",function(){
+
+    if(iswhite){
+
+        document.body.style.backgroundColor = "red"
+    } else {
+     document.body.style.backgroundColor = "white"
+
+    }
+  iswhite =! iswhite;
 
 
-
-document.getElementById("clickbtndark").addEventListener('click',function(){
-
-    if
-})
+});
