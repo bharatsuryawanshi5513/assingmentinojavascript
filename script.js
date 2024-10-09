@@ -23,7 +23,7 @@ document.getElementById("clickbtndark").addEventListener("click",function(){
 
     if(iswhite){
 
-        document.body.style.backgroundColor = "red"
+        document.body.style.backgroundColor = "black"
     } else {
      document.body.style.backgroundColor = "white"
 
